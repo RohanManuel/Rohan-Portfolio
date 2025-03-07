@@ -153,7 +153,7 @@ export const education = [
     img: "https://i.postimg.cc/BnpRkyn3/Screenshot-206.png",
     school: "Sri Eshwar College of Engineering, Coimbatore",
     date: "Jan 2022 - May 2026",
-    grade: "7.64 CGPA",
+    grade: "7.62 (CGPA)",
     desc: "I am currently pursuing a Bachelor's degree in Computer Science and Business Systems at Sri Eshwar College of Engineering, Coimbatore. I have completed 5 semesters and have a CGPA of 7.64.",
     degree: "Bachelor of Technology - BTech, Computer Science and Business Systems",
   },
