@@ -1,6 +1,5 @@
 import React, { useRef, useState } from 'react';
 import styled from 'styled-components';
-import emailjs from '@emailjs/browser';
 import { Snackbar } from '@mui/material';
 
 const Container = styled.div`
@@ -103,23 +102,30 @@ const Contact = () => {
   const [error, setError] = useState(false);
   const form = useRef();
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
-    emailjs.sendForm(
-      'service_7qdlpmv', 
-      'template_cy11cba', 
-      form.current, 
-      'Hmae7Pead5u3QHttQ'
-    )
-      .then((result) => {
+    const formData = new FormData(form.current);
+
+    try {
+      const response = await fetch('https://formspree.io/f/mqapzlnz', {
+        method: 'POST',
+        body: formData,
+        headers: {
+          Accept: 'application/json',
+        },
+      });
+
+      if (response.ok) {
         setOpen(true);
         form.current.reset();
-      })
-      .catch((error) => {
-        console.error('Error sending email:', error.text);
+      } else {
         setError(true);
-      });
+      }
+    } catch (error) {
+      console.error('Error sending email:', error);
+      setError(true);
+    }
   };
 
   return (
@@ -129,14 +135,14 @@ const Contact = () => {
         <Desc>Feel free to reach out to me for any questions or opportunities!</Desc>
         <ContactForm ref={form} onSubmit={handleSubmit}>
           <ContactTitle>Email Me 🚀</ContactTitle>
-          <ContactInput placeholder="Your Email" name="from_email" required />
-          <ContactInput placeholder="Your Name" name="from_name" required />
+          <ContactInput placeholder="Your Email" name="email" type="email" required />
+          <ContactInput placeholder="Your Name" name="name" required />
           <ContactInput placeholder="Subject" name="subject" required />
           <ContactInputMessage placeholder="Message" rows="4" name="message" required />
           <ContactButton type="submit" value="Send" />
         </ContactForm>
         <Snackbar open={open} autoHideDuration={6000} onClose={() => setOpen(false)} message="Email sent successfully!" />
-        <Snackbar open={error} autoHideDuration={6000} onClose={() => setError(false)} message="Failed to send email!" severity="error" />
+        <Snackbar open={error} autoHideDuration={6000} onClose={() => setError(false)} message="Failed to send email!" />
       </Wrapper>
     </Container>
   );
