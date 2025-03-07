@@ -185,7 +185,7 @@ export const projects = [
     description:
       "Developed a modern e-commerce platform with a visually appealing and responsive user interface. Implemented secure user authentication, enabling customers to sign in and manage their shopping activities effortlessly. Integrated Redux for efficient state management, MongoDB for backend services, and Upstash for optimized caching and performance.",
     image:
-      "https://i.postimg.cc/X70C3XYk/Screenshot-192.png",
+      "https://i.postimg.cc/3x87Kgrj/Screenshot-267.png",
     tags: [
       "Stripe",
       "React Js",
@@ -205,7 +205,7 @@ export const projects = [
     description:
       "Stay connected with 'Chatty'—a real-time chat application that makes conversations effortless. With secure messaging, online/offline indicators, and a clean, intuitive interface, communicating with friends and colleagues becomes simple and efficient. Whether for personal or professional use, 'Chatty' keeps you connected anytime, anywhere.",
     image:
-      "https://i.postimg.cc/bJLT7bQr/Screenshot-184.png",
+      "https://i.postimg.cc/QCZGv7nT/Screenshot-268.png",
     tags: [
       "React Js",
       "MongoDb",
@@ -225,7 +225,7 @@ export const projects = [
     description:
       "Developed Meetra, a modern interview management platform with a sleek and responsive UI. Implemented instant calls, scheduling, and secure access to recordings. Integrated authentication and a user-friendly dashboard to streamline the interview process. Optimized performance for a seamless experience for both interviewers and candidates.",
     image:
-      "https://i.postimg.cc/RFZjWwL5/Screenshot-195.png",
+      "https://i.postimg.cc/Bnn9W4NM/Screenshot-269.png",
     tags: ["Next.js", "TypeScript", "Stream", "Convex", "Clerk"],
     category: "web app",
     github: "https://github.com/RohanManuel/Meetra",
@@ -238,7 +238,7 @@ export const projects = [
     description:
       "Developed Vibify, a music streaming web app using React.js, Redux, Node.js, Express, and MongoDB. Designed a dark-themed UI with smooth navigation, playlist management,  real-time music playback , and admin dashboard. Integrated user authentication with MongoDB for secure access and used Axios for efficient data fetching.",
     image:
-      "https://i.postimg.cc/RV475998/Screenshot-208.png",
+      "https://i.postimg.cc/9MTsPMFF/Screenshot-270.png",
     tags: ["React", "Node.js", "MongoDB", "Tailwind", "Cloudinary", "Clerk"],
     category: "web app",
     github: "https://github.com/RohanManuel/Vibify",
