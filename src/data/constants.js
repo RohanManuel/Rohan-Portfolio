@@ -264,7 +264,7 @@ export const projects = [
     description:
       "Developed an AI-powered code assistant that helps users write, debug, and understand code in various programming languages. Integrated the OpenAI API to provide intelligent suggestions and explanations. The app features a clean UI, syntax highlighting, and real-time response handling, enhancing the developer experience.",
     image:
-      "https://i.postimg.cc/HkkpXHNN/Screenshot-2025-05-29-185119.png",
+      "https://i.postimg.cc/DfbZC2B4/Screenshot-2025-05-29-191148.png",
     tags: ["Next.js", "Supabase", "Tailwind"],
     category: "web app",
     github: "https://github.com/RohanManuel/Todo_app",
