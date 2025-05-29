@@ -257,6 +257,19 @@ export const projects = [
     github: "https://github.com/RohanManuel/codeflex-aiy",
     webapp: "https://codeflex-ai-five.vercel.app/",
   },
+   {
+    id: 5,
+    title: "Todo Task Management App",
+    date: "May 2025 - Jun 2025",
+    description:
+      "Developed an AI-powered code assistant that helps users write, debug, and understand code in various programming languages. Integrated the OpenAI API to provide intelligent suggestions and explanations. The app features a clean UI, syntax highlighting, and real-time response handling, enhancing the developer experience.",
+    image:
+      "https://i.postimg.cc/HkkpXHNN/Screenshot-2025-05-29-185119.png",
+    tags: ["Next.js", "Supabase", "Tailwind"],
+    category: "web app",
+    github: "https://github.com/RohanManuel/Todo_app",
+    webapp: "https://todo-app-one-red.vercel.app/",
+  },
 ];
 
 export const TimeLineData = [
