@@ -8,7 +8,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/RohanManuel",
   resume:
-    "https://drive.google.com/file/d/1bk5fF27DG-yRJXjZJqXwcqNUe_eoJNso/view?usp=drive_link",
+    "https://drive.google.com/file/d/1eYP6jauY4uCSGxZcifFMAzy2om8Vp8o5/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/rohan-manuel-a-89610925a/",
   twitter: "https://x.com/Madmanatrise1",
   insta: "https://www.instagram.com/mesmerizer_king_?igsh=dzBvb3l0eGo2YWRu",
