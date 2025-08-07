@@ -8,7 +8,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/RohanManuel",
   resume:
-    "https://drive.google.com/file/d/10gfQPpH69I7_88-wBzD53Z4T5dRrGji1/view?usp=drive_link",
+    "https://drive.google.com/file/d/1bk5fF27DG-yRJXjZJqXwcqNUe_eoJNso/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/rohan-manuel-a-89610925a/",
   twitter: "https://x.com/Madmanatrise1",
   insta: "https://www.instagram.com/mesmerizer_king_?igsh=dzBvb3l0eGo2YWRu",
@@ -249,7 +249,7 @@ export const projects = [
     title: "Todo Task Management App",
     date: "May 2025 - Jun 2025",
     description:
-      "Developed an AI-powered code assistant that helps users write, debug, and understand code in various programming languages. Integrated the OpenAI API to provide intelligent suggestions and explanations. The app features a clean UI, syntax highlighting, and real-time response handling, enhancing the developer experience.",
+      "Developed a minimalist task management platform with a clean and responsive interface. Enabled users to create, update, and delete tasks with real-time UI feedback. Integrated local storage for data persistence and optimized performance for a seamless user experience across devices.",
     image:
       "https://i.postimg.cc/DfbZC2B4/Screenshot-2025-05-29-191148.png",
     tags: ["Next.js", "Supabase", "TailwindCss"],
