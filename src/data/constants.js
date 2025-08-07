@@ -2,7 +2,7 @@ export const Bio = {
   name: "Rohan Manuel A",
   roles: [
     "Web Developer",
-    "UI/UX Designer",
+    "AI Developer",
   ],
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
@@ -270,11 +270,24 @@ export const projects = [
     github: "https://github.com/RohanManuel/Todo_app",
     webapp: "https://todo-app-one-red.vercel.app/",
   },
+  {
+    id: 8,
+    title: "Personal AI Assistant",
+    date: "July 2025 - Aug 2025",
+    description:
+      "Developed an interactive AI-powered personal assistant using Gemini, Gradio, and Python, designed as my career showcase bot. Anyone can chat with the bot to learn about my skills, experience, or background, view my portfolio, or upload their resume for feedback and analysis. The assistant also offers multilingual support, document analysis, and easy access to download my resume—making it a one-stop platform to get to know me professionally.",
+    image:
+      "https://i.postimg.cc/CK55zgws/Screenshot-2025-08-07-190704.png",
+    tags: ["Gemini", "Gradio", "Python"],
+    category: "ai app",
+    github: "https://github.com/RohanManuel/Personal-AI-Assistant",
+    webapp: "https://huggingface.co/spaces/rohan131/career_conversation",
+  },
 ];
 
 export const TimeLineData = [
   { year: 2022, text: "Started learning programming and exploring tech" },
-  { year: 2023, text: "Built my first full-stack project and contributed to open source" },
+  { year: 2023, text: "Built my first full-stack project" },
   { year: 2024, text: "Secured an internship and expanded my skill set" },
   { year: 2024, text: "Worked on real-world projects and participated in hackathons" },
   { year: 2025, text: "Preparing for placements and building my professional network" },
