@@ -244,19 +244,6 @@ export const projects = [
     github: "https://github.com/RohanManuel/Vibify",
     webapp: "https://vibify-sv4w.onrender.com",
   },
-    {
-    id: 7,
-    title: "Codeflex-Ai",
-    date: "Feb 2025 - Apr 2025",
-    description:
-      "Developed an interactive AI fitness coach using Next.js, integrated with VAPI (Voice Assistant API) and powered by a Large Language Model (LLM). This project enables users to speak naturally with an AI coach that generates personalized workout and diet plans in real-time.",
-    image:
-      "https://i.postimg.cc/Yq1BHSCD/Screenshot-2025-04-16-231923.png",
-    tags: ["Next.js", "Vapi", "Convex", "LLM", "React"],
-    category: "web app",
-    github: "https://github.com/RohanManuel/codeflex-aiy",
-    webapp: "https://codeflex-ai-five.vercel.app/",
-  },
    {
     id: 5,
     title: "Todo Task Management App",
@@ -279,7 +266,7 @@ export const projects = [
     image:
       "https://i.postimg.cc/CK55zgws/Screenshot-2025-08-07-190704.png",
     tags: ["Gemini", "Gradio", "Python"],
-    category: "ai app",
+    category: "web app",
     github: "https://github.com/RohanManuel/Personal-AI-Assistant",
     webapp: "https://huggingface.co/spaces/rohan131/career_conversation",
   },
