@@ -8,7 +8,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/RohanManuel",
   resume:
-    "https://drive.google.com/file/d/1eYP6jauY4uCSGxZcifFMAzy2om8Vp8o5/view?usp=drive_link",
+    "https://drive.google.com/file/d/1XIewEbapwtvL0MPAQL7NGuwoPrSlGl0W/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/rohan-manuel-a-89610925a/",
   twitter: "https://x.com/Madmanatrise1",
   insta: "https://www.instagram.com/mesmerizer_king_?igsh=dzBvb3l0eGo2YWRu",
@@ -181,7 +181,7 @@ export const projects = [
   {
     id: 9,
     title: "ShopSphere",
-    date: "Jan 2025 - Feb 2025",
+    date: "Apr 2025 - May 2025",
     description:
       "Developed a modern e-commerce platform with a visually appealing and responsive user interface. Implemented secure user authentication, enabling customers to sign in and manage their shopping activities effortlessly. Integrated Redux for efficient state management, MongoDB for backend services, and Upstash for optimized caching and performance.",
     image:
@@ -200,75 +200,49 @@ export const projects = [
   },
   {
     id: 1,
-    title: "Chatty",
-    date: "Oct 2024 - Dec 2024",
+    title: "DeepRAI",
+    date: "Jun 2025 - Jul 2025",
     description:
-      "Stay connected with 'Chatty'—a real-time chat application that makes conversations effortless. With secure messaging, online/offline indicators, and a clean, intuitive interface, communicating with friends and colleagues becomes simple and efficient. Whether for personal or professional use, 'Chatty' keeps you connected anytime, anywhere.",
+      "Developed Sidekick, an intelligent AI-powered personal co-worker platform with a clean, collaborative interface.Sidekick streamlines workflow by allowing users to assign natural-language tasks, receive real-time progress feedback,and interact with smart tools for research, scheduling, notifications, and automation.",
     image:
-      "https://i.postimg.cc/QCZGv7nT/Screenshot-268.png",
+      "https://i.postimg.cc/W1nPtXVx/Screenshot-2025-08-11-231014.png",
     tags: [
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Socket io",
-      "TailwindCss",
+      "Gemini",
+      "Gradio",
+      "Python",
+      "SerpAPI",
+      "SendGrid",
+      "HuggingFace",
     ],
     category: "web app",
-    github: "https://github.com/RohanManuel/chatty",
-    webapp: "https://chatty-6fsj.onrender.com",
+    github: "https://github.com/RohanManuel/Deep_Research_AI",
+    webapp: "https://huggingface.co/spaces/rohan131/Deep_Research",
   },
   {
     id: 3,
-    title: "Meetra",
-    date: "Aug 2024 - Sep 2024",
-    description:
-      "Developed Meetra, a modern interview management platform with a sleek and responsive UI. Implemented instant calls, scheduling, and secure access to recordings. Integrated authentication and a user-friendly dashboard to streamline the interview process. Optimized performance for a seamless experience for both interviewers and candidates.",
-    image:
-      "https://i.postimg.cc/Bnn9W4NM/Screenshot-269.png",
-    tags: ["Next.js", "TypeScript", "Stream", "Convex", "Clerk"],
-    category: "web app",
-    github: "https://github.com/RohanManuel/Meetra",
-    webapp: "https://meetra-rho.vercel.app",
-  },
-  {
-    id: 10,
-    title: "Vibify",
-    date: "Jun 2024 - July 2024",
-    description:
-      "Developed Vibify, a music streaming web app using React.js, Redux, Node.js, Express, and MongoDB. Designed a dark-themed UI with smooth navigation, playlist management,  real-time music playback , and admin dashboard. Integrated user authentication with MongoDB for secure access and used Axios for efficient data fetching.",
-    image:
-      "https://i.postimg.cc/9MTsPMFF/Screenshot-270.png",
-    tags: ["React", "Node.js", "MongoDB", "Tailwind", "Cloudinary", "Clerk"],
-    category: "web app",
-    github: "https://github.com/RohanManuel/Vibify",
-    webapp: "https://vibify-sv4w.onrender.com",
-  },
-   {
-    id: 5,
-    title: "Todo Task Management App",
+    title: "AI Assistant",
     date: "May 2025 - Jun 2025",
     description:
-      "Developed a minimalist task management platform with a clean and responsive interface. Enabled users to create, update, and delete tasks with real-time UI feedback. Integrated local storage for data persistence and optimized performance for a seamless user experience across devices.",
+      "Developed an AI-powered personal assistant using Gemini, Gradio, and Python to showcase my career. It lets userschat about my skills and portfolio, upload resumes for feedback, and access my resume easily. The assistant supportsmultiple languages and document analysis for a smooth professional introduction.",
     image:
-      "https://i.postimg.cc/DfbZC2B4/Screenshot-2025-05-29-191148.png",
-    tags: ["Next.js", "Supabase", "TailwindCss"],
-    category: "web app",
-    github: "https://github.com/RohanManuel/Todo_app",
-    webapp: "https://todo-app-one-red.vercel.app/",
-  },
-  {
-    id: 8,
-    title: "Personal AI Assistant",
-    date: "July 2025 - Aug 2025",
-    description:
-      "Developed an interactive AI-powered personal assistant using Gemini, Gradio, and Python, designed as my career showcase bot. Anyone can chat with the bot to learn about my skills, experience, or background, view my portfolio, or upload their resume for feedback and analysis. The assistant also offers multilingual support, document analysis, and easy access to download my resume—making it a one-stop platform to get to know me professionally.",
-    image:
-      "https://i.postimg.cc/CK55zgws/Screenshot-2025-08-07-190704.png",
-    tags: ["Gemini", "Gradio", "Python"],
+      "https://i.postimg.cc/gcvtYrmT/Screenshot-2025-08-07-190704.png",
+    tags: ["Gemini", "Gradio", "Python", "HuggingFace"],
     category: "web app",
     github: "https://github.com/RohanManuel/Personal-AI-Assistant",
     webapp: "https://huggingface.co/spaces/rohan131/career_conversation",
+  },
+  {
+    id: 10,
+    title: "SideKick",
+    date: "Jul 2025 - Aug 2025",
+    description:
+      "Developed Sidekick, an intelligent AI-powered personal co-worker platform with a clean, collaborative interface.Sidekick streamlines workflow by allowing users to assign natural-language tasks, receive real-time progress feedback,and interact with smart tools for research, scheduling, notifications, and automation.",
+    image:
+      "https://i.postimg.cc/Gtd2TztN/Screenshot-2025-08-17-221707.png",
+    tags: ["Gemini", "Gradio", "Python", "SerperAPI", "Google Calendar", "Pushover", "HuggingFace"],
+    category: "web app",
+    github: "https://github.com/RohanManuel/Sidekick-Personal-Co-Worker",
+    webapp: "https://huggingface.co/spaces/rohan131/Sidekick",
   },
 ];
 
